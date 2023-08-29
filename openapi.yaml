@@ -1,0 +1,7 @@
+name: Currency Finder
+description: Find the currency of a country.
+entry_points:
+  python: chatgpt_currency_plugin.find_currency
+dependencies:
+  - openai
+  - requests
